@@ -31,5 +31,8 @@
     "psr-4": {
       "Migrator\\": "src/"
     }
+  },
+  "suggest": {
+    "symfony/yaml": "Allows using YAML config files"
   }
 }
