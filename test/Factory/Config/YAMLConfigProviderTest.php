@@ -12,13 +12,6 @@ use Symfony\Component\Yaml\Yaml;
  */
 class YAMLConfigProviderTest extends PHPUnit_Framework_TestCase
 {
-    public function setUp()
-    {
-        if (!class_exists(Yaml::class)) {
-            $this->markTestSkipped('symfony/yaml package is required for this test.');
-        }
-    }
-
     /**
      * @expectedException RuntimeException
      * @expectedExceptionMessage Can not find config file 'invalid path'
