@@ -41,7 +41,7 @@ class YAMLConfigProviderTest extends PHPUnit_Framework_TestCase
 
     /**
      * @expectedException RuntimeException
-     * @expectedExceptionMessage Unable to parse the YAML string: Unable to parse at line 1 (near "Hey").
+     * @expectedExceptionMessage Unable to parse at line 1 (near "Hey").
      */
     public function testInvalidYAMLFile()
     {
